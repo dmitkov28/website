@@ -52,8 +52,8 @@
 
       .background-image {
         z-index: -1;
-        width: 100%!important;
-        height: 35% !important;
+        width: 100vw!important;
+        height: 35vh !important;
         opacity: 0.4;
         left: 0;
         top: 0;
