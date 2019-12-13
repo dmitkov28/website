@@ -56,8 +56,9 @@ p {
     margin: 1em auto;
 }
 
-a:focus {
-    outline: 0;
+a:focus, a:active {
+    outline: 0!important;
+    background: transparent !important;
 }
 
 @media screen and (-webkit-min-device-pixel-ratio:0) { 
