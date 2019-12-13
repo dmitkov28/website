@@ -58,7 +58,7 @@ p {
 
 a:focus, a:active {
     outline: 0!important;
-    background: transparent !important;
+    background: rgba(0,0,0,0) !important;
 }
 
 @media screen and (-webkit-min-device-pixel-ratio:0) { 
