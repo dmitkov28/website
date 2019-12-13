@@ -1,5 +1,4 @@
-//remove highlighting
-document.addEventListener("touchstart", function(){}, true);
+
 
 //smooth scroll
 

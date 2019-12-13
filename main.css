@@ -59,6 +59,9 @@ p {
 a:focus, a:active, button:active, button:focus {
     outline: 0!important;
     background: rgba(0,0,0,0) !important;
+}
+
+* {
     -webkit-tap-highlight-color: rgba(0,0,0,0)!important;
     -webkit-tap-highlight-color: transparent!important; 
 }
