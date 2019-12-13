@@ -3,6 +3,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     position: absolute;
     z-index: -1;
     width: 55vw;
@@ -14,6 +17,9 @@
     border-bottom-right-radius: 70%;
 }
 
+#section-1 {
+    overflow: hidden;
+}
 
 
 .video {
