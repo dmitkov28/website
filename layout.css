@@ -85,25 +85,19 @@
           margin: -1em auto 1em;
       }
 
-      .title {
-        width: 100%;
-        color: var(--darkBlue);
-        display: flex;
-        flex-direction: column;
-    }
 
-    .title h2 {
+    #section-2 h2 {
         font-size: 1.3em;
     }
 
-    .title h2::before {
+    #section-2 h2::before {
         content: '';
         width: 27px;
         border: 2px solid var(--darkBlue);
         transform: translate(90deg);
     }
     
-    .title p {
+    #section-2 p {
         font-size: 0.8em;
         margin: 1em auto 0;
         padding: 0 1em;

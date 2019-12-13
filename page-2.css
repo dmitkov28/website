@@ -1,27 +1,11 @@
-.title {
-    width: 100%;
-    color: var(--darkBlue);
-    display: flex;
+
+#section-2 .column-right {
     flex-direction: column;
 }
+    
 
-.title p {
-    margin: 20px auto;
-}
 
-.services {
-    margin: 30px auto;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-}
-
-.service-icon {
-    width: 65px;
-    height: auto;
-}
-
-.title h2::before {
+ h2::before {
     content: '';
     width: 57px;
     border: 2px solid var(--darkBlue);
