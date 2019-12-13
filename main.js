@@ -17,7 +17,6 @@ button.forEach((button)=>{
        modalBg.classList.add('modal-visible');
        document.querySelector('body').style.position = 'fixed';
        modalContent.style.animation = 'modalanimation 400ms ease-in';
-       modalContent.style.-webkit-animation = 'modalanimation 400ms ease-in';
    })
 })
 
