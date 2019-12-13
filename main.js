@@ -1,17 +1,3 @@
-//vh fix
-(function() {
-    $(function() {
-      var onResize = function() {
-        //var docHeight = window.innerHeight;
-        var docHeight = $(window).outerHeight();
-        $(".hero").css({ height: docHeight });
-        $(".hero").html(docHeight);
-      };
-      $(window).on("resize", onResize);
-      onResize();
-    });
-  })();
-  
 
 
 //smooth scroll
@@ -40,3 +26,19 @@ modalClose.addEventListener('click', ()=>{
     document.querySelector('body').style.position = 'static';
     modalContent.style.animation = '';
 })
+
+
+//vh 
+//vh fix
+(function() {
+    $(function() {
+      var onResize = function() {
+        //var docHeight = window.innerHeight;
+        var docHeight = $(window).outerHeight();
+        $("section").css({ height: docHeight });
+        $("section").html(docHeight);
+      };
+      $(window).on("resize", onResize);
+      onResize();
+    });
+  })();
