@@ -28,17 +28,3 @@ modalClose.addEventListener('click', ()=>{
 })
 
 
-//vh 
-//vh fix
-(function() {
-    $(function() {
-      var onResize = function() {
-        //var docHeight = window.innerHeight;
-        var docHeight = $(window).outerHeight();
-        $("section").css({ height: docHeight });
-        $("section").html(docHeight);
-      };
-      $(window).on("resize", onResize);
-      onResize();
-    });
-  })();
