@@ -1,8 +1,18 @@
 //vh fix
-window.onresize = function() {
-    document.body.height = window.innerHeight;
-};
-window.onresize(); 
+(function() {
+    $(function() {
+      var onResize = function() {
+        //var docHeight = window.innerHeight;
+        var docHeight = $(window).outerHeight();
+        $(".hero").css({ height: docHeight });
+        $(".hero").html(docHeight);
+      };
+      $(window).on("resize", onResize);
+      onResize();
+    });
+  })();
+  
+
 
 //smooth scroll
 
