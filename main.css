@@ -56,6 +56,9 @@ p {
     margin: 1em auto;
 }
 
+a:focus {
+    outline: 0;
+}
 
 @media screen and (-webkit-min-device-pixel-ratio:0) { 
 	select,
