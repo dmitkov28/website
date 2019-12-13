@@ -3,7 +3,6 @@
     color: var(--darkBlue);
     display: flex;
     flex-direction: column;
-    position: absolute;
 }
 
 .title p {

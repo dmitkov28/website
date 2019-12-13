@@ -81,6 +81,7 @@
 
       #section-2 img {
           height: 60%;
+          width: auto;
           margin: -1em auto 1em;
       }
 
@@ -120,6 +121,5 @@
         height: auto;
     }
 
-
-      
+   
   }
