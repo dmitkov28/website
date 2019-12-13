@@ -4,9 +4,19 @@ var scroll = new SmoothScroll('a[href*="#"]', {
 	speed: 1700
 });
 
-//modal
-//display modal 
+//glider
+new Glider(document.querySelector('.glider'), {
+    slidesToShow: 1,
+    dots: '#dots',
+    draggable: true,
+    dots: '.dots',
+    arrows: {
+      prev: '.glider-prev',
+      next: '.glider-next'
+    }
+  });
 
+//modal
 const button = document.querySelectorAll('.cta');
 const modalBg = document.querySelector('.modal-bg');
 const modalClose = document.querySelector('.modal-close');

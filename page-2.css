@@ -3,8 +3,6 @@
     flex-direction: column;
 }
     
-
-
  h2::before {
     content: '';
     width: 57px;

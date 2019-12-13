@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link rel="stylesheet" href="/glider.min.css">
     <link rel="stylesheet" href="main.css">
     <title>Layout</title>
 </head>
@@ -33,14 +34,14 @@
     </section>
     <section id="section-2">
             <div class="column-left">
-                <img src="/person.png" alt="">
+                <img src="/person.jpg" alt="">
             </div>
             <div class="column-right">
                     
                <h2>Who am I</h2>
                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur architecto recusandae quos repudiandae fugiat? Ipsum eius perferendis natus cupiditate tempore repellendus dicta impedit delectus eos.</p>
                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora harum illum id mollitia! Ex, non?</p>
-               
+
             
                        
             </div>
@@ -56,7 +57,49 @@
                </g>
                </svg></a>
     </section>
-    <section id="section-3"><h2>Single Column</h2></section>
+
+    <section id="section-3">
+        <h2>Single Column</h2>
+        <div class="glider-contain">
+                <div class="glider">
+                  <div class="testimonial">
+                      <img src="./testimonial1.png" alt="">
+                      <blockquote>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque minus corrupti inventore amet blanditiis dolorum?"
+                     <span>-  Jane Doe, Some Company</span>
+                      </blockquote>
+                      
+                  </div>
+                  <div class="testimonial">
+                      <img src="./testimonial2.png" alt="">
+                      <blockquote>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque minus corrupti inventore amet blanditiis dolorum?"
+                        <span>John Doe, Another Company</span>
+                      </blockquote>
+                      
+                  </div>
+               
+                </div>
+              
+                <button role="button" aria-label="Previous" class="glider-prev"> <svg class="arrow-left" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                    width="30.727px" height="30.727px" viewBox="0 0 30.727 30.727" style="enable-background:new 0 0 30.727 30.727; fill:#0F3492;opacity: 0.7;"
+                    xml:space="preserve">
+               <g>
+                   <path d="M29.994,10.183L15.363,24.812L0.733,10.184c-0.977-0.978-0.977-2.561,0-3.536c0.977-0.977,2.559-0.976,3.536,0
+                       l11.095,11.093L26.461,6.647c0.977-0.976,2.559-0.976,3.535,0C30.971,7.624,30.971,9.206,29.994,10.183z"/>
+               </g>
+               </svg></button>
+                <button role="button" aria-label="Next" class="glider-next"> <svg class="arrow-right" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                    width="30.727px" height="30.727px" viewBox="0 0 30.727 30.727" style="enable-background:new 0 0 30.727 30.727; fill:#0F3492;opacity: 0.7;"
+                    xml:space="preserve">
+               <g>
+                   <path d="M29.994,10.183L15.363,24.812L0.733,10.184c-0.977-0.978-0.977-2.561,0-3.536c0.977-0.977,2.559-0.976,3.536,0
+                       l11.095,11.093L26.461,6.647c0.977-0.976,2.559-0.976,3.535,0C30.971,7.624,30.971,9.206,29.994,10.183z"/>
+               </g>
+               </svg></button>
+                <div role="tablist" class="dots"></div>
+              </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eaque asperiores atque quae? Accusantium eius corporis veniam sapiente ab magni culpa nostrum earum voluptatum cum voluptate maxime quas non qui, sunt harum voluptatibus sit beatae accusamus fuga possimus rem repudiandae fugiat. Quos quasi accusantium dolorum!</p>
+        <button class="cta">Button</button>
+    </section>
     <div class="modal-bg">
             <div class="modal">
                 <h3>Call to Action</h3>
@@ -83,6 +126,7 @@
             </div>
         </div>
 <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script> 
+<script src="/glider.min.js"></script>
 <script src="/main.js"></script> 
 </body>
 </html>
