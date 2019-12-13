@@ -1,3 +1,6 @@
+//remove highlighting
+document.addEventListener("touchstart", function(){}, true);
+
 //smooth scroll
 
 var scroll = new SmoothScroll('a[href*="#"]', {
