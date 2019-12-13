@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
     <link rel="stylesheet" href="main.css">
     <title>Layout</title>
 </head>
@@ -12,8 +13,7 @@
     <section id="section-1">
         <div class="background-image"></div>
         <div class="column-left">
-                <iframe class="video" data-aos="fade-right" data-aos-delay="50"
-                data-aos-duration="1000" width="500" height="255" src="https://www.youtube.com/embed/DFO8dAv-cLg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="video" width="500" height="255" src="https://www.youtube.com/embed/DFO8dAv-cLg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
             <div class="column-right">
                     <h1>Lorem ipsum dolor sit amet consectetur.</h1>
@@ -34,8 +34,44 @@
     <section id="section-2">
             <div class="column-left"><h2>Column Left #1 </h2></div>
             <div class="column-right"><h2>Column Right #2</h2></div>
+            <a class="scroll-button" id="scroll-1" href="#section-3">
+      
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                    width="30.727px" height="30.727px" viewBox="0 0 30.727 30.727" style="enable-background:new 0 0 30.727 30.727; fill:#0F3492;opacity: 0.7;"
+                    xml:space="preserve">
+               <g>
+                   <path d="M29.994,10.183L15.363,24.812L0.733,10.184c-0.977-0.978-0.977-2.561,0-3.536c0.977-0.977,2.559-0.976,3.536,0
+                       l11.095,11.093L26.461,6.647c0.977-0.976,2.559-0.976,3.535,0C30.971,7.624,30.971,9.206,29.994,10.183z"/>
+               </g>
+               </svg></a>
     </section>
     <section id="section-3"><h2>Single Column</h2></section>
+    <div class="modal-bg">
+            <div class="modal">
+                <h3>Call to Action</h3>
+                <label for="Name">Name</label>
+                <input type="text">
+                <label for="Email">E-Mail</label>
+                <input type="email" name='email'>
+                <label for="textarea">Message</label>
+                <textarea name="field5" id="field5" class="field-long field-textarea"></textarea>
+                <button>Call To Action</button>
     
+                <span class="modal-close"><svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                    width="348.333px" height="348.334px" viewBox="0 0 348.333 348.334" style="enable-background:new 0 0 348.333 348.334; fill:#0F3492;"
+                    xml:space="preserve">
+               <g>
+                   <path d="M336.559,68.611L231.016,174.165l105.543,105.549c15.699,15.705,15.699,41.145,0,56.85
+                       c-7.844,7.844-18.128,11.769-28.407,11.769c-10.296,0-20.581-3.919-28.419-11.769L174.167,231.003L68.609,336.563
+                       c-7.843,7.844-18.128,11.769-28.416,11.769c-10.285,0-20.563-3.919-28.413-11.769c-15.699-15.698-15.699-41.139,0-56.85
+                       l105.54-105.549L11.774,68.611c-15.699-15.699-15.699-41.145,0-56.844c15.696-15.687,41.127-15.687,56.829,0l105.563,105.554
+                       L279.721,11.767c15.705-15.687,41.139-15.687,56.832,0C352.258,27.466,352.258,52.912,336.559,68.611z"/>
+               </g>
+               </svg>
+               </span>
+            </div>
+        </div>
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script> 
+<script src="/main.js"></script> 
 </body>
 </html>

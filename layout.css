@@ -64,5 +64,9 @@
       .video {
           align-self: flex-end;
       }
+
+      #section-1 p {
+          text-align: center;
+      }
       
   }
