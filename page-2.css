@@ -1,0 +1,34 @@
+.title {
+    width: 100%;
+    color: var(--darkBlue);
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+.title p {
+    margin: 20px auto;
+}
+
+.services {
+    margin: 30px auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.service-icon {
+    width: 65px;
+    height: auto;
+}
+
+.title h2::before {
+    content: '';
+    width: 57px;
+    border: 2px solid var(--darkBlue);
+    transform: translate(90deg);
+    height: 0px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px;
+}

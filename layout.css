@@ -42,31 +42,83 @@
           width: 100%;
       }
 
-      .column-right {
-          order: 1;
+      .scroll-button svg {
+          width: 80px;
       }
 
-      .column-left {
-          order: 2;
+      #section-2 {
+        flex-direction: column-reverse;
       }
+      
+      
 
       .background-image {
         z-index: -1;
-        width: 100vw!important;
-        height: 35vh !important;
+        width: 100vw;
+        height: 35vh ;
         opacity: 0.4;
         left: 0;
         top: 0;
-        border-top-right-radius: 0 !important;
-        border-bottom-right-radius: 0 !important;
+        border-top-right-radius: 0 ;
+        border-bottom-right-radius: 0;
       }
 
       .video {
           align-self: flex-end;
       }
 
-      #section-1 p {
+      #section-1 h1,p {
           text-align: center;
       }
+
+      #section-1 h1 {
+          margin: -1em auto 0.3em;
+      }
+
+      #section-1 p {
+          margin: 0 auto 0.em;
+      }
+
+      #section-2 img {
+          height: 60%;
+          margin: -1em auto 1em;
+      }
+
+      .title {
+        width: 100%;
+        color: var(--darkBlue);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .title h2 {
+        font-size: 1.3em;
+    }
+
+    .title h2::before {
+        content: '';
+        width: 27px;
+        border: 2px solid var(--darkBlue);
+        transform: translate(90deg);
+    }
+    
+    .title p {
+        font-size: 0.8em;
+        margin: 1em auto 0;
+    }
+    
+    .services {
+        margin: 1em auto;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .service-icon {
+        width: 40px;
+        height: auto;
+    }
+
+
       
   }
