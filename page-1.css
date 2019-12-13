@@ -1,0 +1,15 @@
+.background-image {
+    background: url(/bg-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    z-index: -1;
+    width: 55%;
+    height: 100%;
+    opacity: 0.4;
+    left: 0;
+    top: 0;
+    border-top-right-radius: 70%;
+    border-bottom-right-radius: 70%;
+}
