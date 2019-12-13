@@ -49,5 +49,20 @@
       .column-left {
           order: 2;
       }
+
+      .background-image {
+        z-index: -1;
+        width: 100%!important;
+        height: 35% !important;
+        opacity: 0.4;
+        left: 0;
+        top: 0;
+        border-top-right-radius: 0 !important;
+        border-bottom-right-radius: 0 !important;
+      }
+
+      .video {
+          align-self: flex-end;
+      }
       
   }

@@ -28,3 +28,11 @@
     justify-content: center;
 }
 
+.column-right{
+    order: 2;
+}
+
+.column-left {
+    order: 1;
+}
+
