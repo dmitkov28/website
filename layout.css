@@ -45,6 +45,10 @@
           width: 100%;
       }
 
+      .scroll-button {
+          bottom: 1.5em!important;
+      }
+
       .scroll-button svg {
           width: 100px!important;
       }
@@ -75,8 +79,9 @@
       }
 
       .video {
-          align-self: flex-end;
-            
+          align-self: flex-start;
+          margin: 2em auto;
+
       }
 
       #section-1 h1,p {
@@ -84,7 +89,7 @@
       }
 
       #section-1 h1 {
-          margin: -1em auto 0.3em;
+          margin: -4em auto 0.3em;
       }
 
       #section-1 p {
