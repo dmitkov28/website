@@ -1,52 +1,5 @@
-/*Glider*/
-
-.testimonial {
-    display: flex;
-    align-items: center;
-    justify-items: space-around;
-    background: rgba(0, 114, 187, 0.3);
-    border-radius: 4px;
-    padding: 1em;
-}
-
-
-.testimonial blockquote {
-    width: 50%;
-    margin-left: 1em;
-    color: var(--lightBlue);
-    font-style: italic;
-}
-
-.testimonial span {
-    text-align: right;
-    font-weight: bold;
-    margin: 1em 0 0 5em;
-    display: block;
-    color: var(--darkBlue);
-}
-
-.draggable {
-    overflow-x: hidden;
-}
-
-.glider-contain {
-    margin: auto;
-    width: 90%;
+.slider {
+    border: 2px solid burlywood;
     height: 30%;
-    border: 2px solid red;
-    cursor: default;
+    width: 80%;
 }
-
-.glider-dot.active {
-    background: var(--darkBlue);
-}
-
-.arrow-left {
-    transform: rotate(90deg);
-}
-
-.arrow-right {
-    transform: rotate(-90deg);
-}
-
-
