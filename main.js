@@ -1,22 +1,10 @@
 
-
 //smooth scroll
 
 var scroll = new SmoothScroll('a[href*="#"]', {
 	speed: 1700
 });
 
-//glider
-new Glider(document.querySelector('.glider'), {
-    slidesToShow: 1,
-    dots: '#dots',
-    draggable: true,
-    dots: '.dots',
-    arrows: {
-      prev: '.glider-prev',
-      next: '.glider-next'
-    }
-  });
 
 //modal
 const button = document.querySelectorAll('.cta');
@@ -28,7 +16,8 @@ button.forEach((button)=>{
    button.addEventListener('click', ()=>{
        modalBg.classList.add('modal-visible');
        document.querySelector('body').style.position = 'fixed';
-       modalContent.style.animation = 'modalanimation 400ms ease-in'
+       modalContent.style.animation = 'modalanimation 400ms ease-in';
+       modalContent.style.-webkit-animation = 'modalanimation 400ms ease-in';
    })
 })
 
