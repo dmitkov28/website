@@ -1,3 +1,4 @@
+
 //smooth scroll
 
 var scroll = new SmoothScroll('a[href*="#"]', {
@@ -40,7 +41,4 @@ new Glider(document.querySelector('.glider'), {
     }
   });
 
-  //animate on scroll
-  AOS.init({
-    startEvent: 'load',
-  });
+ 
