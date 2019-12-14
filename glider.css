@@ -1,19 +1,76 @@
 .glider-contain {
     height: 30%;
     width: 80%;
+    min-width: 80%;
     margin: 2em auto;
     border: 2px solid cornflowerblue;
+    position: relative;
 }
 
 .glider{
     height: 100%;
-}
-.glider div {
-    background: salmon;
-    height: 100%;
+    border:2px solid red;
+    display: flex;
 }
 
 .dots {
     margin: 1em auto;
+}
+
+.glider-dot.active {
+    background: var(--darkBlue);
+}
+
+.glider-prev {
+    left: -10%;
+}
+
+.glider-next, .glider-prev{
+    position: absolute;
+    display: block;
+    top: 50%;
+    transform: translate(0,-50%);
+    right: -10%;
+}
+.glider-prev svg {
+    transform: rotate(90deg);
+}
+
+.glider-next svg {
+    transform: rotate(-90deg);
+}
+
+.testimonial {
+    border: 2px solid khaki;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: rgb(0, 114, 187,0.3);
+}
+
+.testimonial img {
+    display: block;
+    height: 40%;
+    width:auto;
+    margin: 0 0.5em;
+}
+
+.testimonial blockquote {
+    font-style: italic;
+    width: 60%;
+    font-size: 0.9em;
+    color: var(--darkBlue);
+}
+
+.testimonial blockquote span {
+    width: 100%;
+    font-style:normal;
+    font-weight: bold;
+    display: block;
+    text-align:right;
+    margin: 1em 0;
+    font-size: 0.7em;
+    border: 2px solid salmon;
 }
 
