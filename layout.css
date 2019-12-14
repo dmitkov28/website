@@ -37,6 +37,12 @@
 
 
   @media screen and (max-width:500px){
+	
+@-moz-document url-prefix() {
+    html, body {
+        height: 100vh!important;
+    }
+}
 
       html,body {
           height: 100%;
