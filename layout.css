@@ -189,7 +189,7 @@
     
     #section-2 p {
         width: 100%;
-        margin: 1em auto 0;
+        margin: 2em auto!important;
     }
 
     #section-2 p:first-of-type, #section-2 p:last-of-type {
@@ -203,7 +203,6 @@
 
     #section-3 {
         justify-content: flex-start;
-        border: 2px solid salmon;
         padding: 0 1em;
     }
    #section-3 h2 {
@@ -232,7 +231,7 @@
     height: 100%;
     width: 100%!important;
     display: flex;
-    -moz-hyphens: ;
+
 }
 
 .dots {
