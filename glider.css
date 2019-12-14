@@ -7,7 +7,6 @@
 
 .glider{
     height: 100%;
-    overflow-x: hidden;
 }
 .glider div {
     background: salmon;
