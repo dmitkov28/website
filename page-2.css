@@ -13,3 +13,26 @@
     vertical-align: middle;
     margin: 10px;
 }
+
+#section-2 img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#section-2 .column-right {
+    padding: 6em 2em;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#section-2 .column-right h2 {
+    margin: 0 0 1em 0;
+}
+
+#section-2 .column-right p {
+    margin: 0 0 2em 0;
+}
+
+#section-2 .column-left {
+}

@@ -38,9 +38,10 @@
   #section-1 .column-left {
       width: 60%;
   }
+
   .video {
-      width: 90%;
-      height: 60%;
+      width: 80%;
+      height: 50%;
   }
 
   #section-1 .column-right {
@@ -55,8 +56,8 @@
   }
 
   #section-1 p {
-      width: 70%;
-      margin: 0 0 1em;
+      width: 90%;
+      margin: 0 0 2em;
   }
 
   #section-2 .column-left {

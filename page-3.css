@@ -1,0 +1,13 @@
+#section-3 {
+    justify-content: flex-start;
+    padding: 2em 2em;
+}
+
+#section-3 h2 {
+    margin: 0 auto 2em;
+}
+
+#section-3 p {
+    width: 80%;
+    margin: 1em auto 2em;
+}
