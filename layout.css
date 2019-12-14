@@ -124,8 +124,7 @@
           bottom: -7em;
       }
 
-      
-
+    
       #section-1 .column-right, #section-1 .column-left {
           width: 100%;
           align-items: center;
@@ -169,8 +168,7 @@
       #section-2 img {
         height: 50%;
         width: auto;
-          
-          margin: -1em auto 1em;
+        margin: -1em auto 1em;
       }
 
 
@@ -189,6 +187,10 @@
         
         margin: 1em auto 0;
         padding: 0 1em;
+    }
+
+    #section-2 p:first-of-type, #section-2 p:last-of-type {
+        display: none;
     }
     
     
