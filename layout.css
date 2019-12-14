@@ -216,6 +216,83 @@
    #section-3 p:last-of-type{
        margin: 0 auto 1em;
    }
+
+   .glider-contain {
+    height: 25%;
+    width: 80%;
+    min-width: 80%;
+    background: rgb(0, 114, 187,0.3);
+    position: relative;
+    border-radius: 4px;
+}
+
+.glider{
+    height: 100%;
+    display: flex;
+}
+
+.dots {
+    margin: 0.5em auto;
+}
+
+.glider-dot.active {
+    background: var(--darkBlue);
+}
+
+.glider-prev {
+    left: -10%;
+}
+
+.glider-next, .glider-prev{
+    position: absolute;
+    display: block;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+.glider-next {
+    right: -10%;
+}
+
+.glider-prev svg {
+    transform: rotate(90deg);
+}
+
+.glider-next svg {
+    transform: rotate(-90deg);
+}
+
+.testimonial {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+ 
+}
+
+.testimonial img {
+    display: block;
+    height: 40%;
+    width:auto;
+    margin: 0 0.5em;
+}
+
+.testimonial blockquote {
+    font-style: italic;
+    width: 60%;
+    font-size: 0.9em;
+    color: var(--darkBlue);
+}
+
+.testimonial blockquote span {
+    width: 100%;
+    font-style:normal;
+    font-weight: bold;
+    display: block;
+    text-align:right;
+    margin: 1em 0;
+    font-size: 0.7em;
+}
+
    
 
    
