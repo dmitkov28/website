@@ -4,9 +4,17 @@
     box-sizing: border-box;  
   }
 
+  html {
+      scroll-snap-type: y mandatory ;
+  }
+
   body, html {
       height:100vh;
       width: 100vw;
+  }
+
+  section {
+      scroll-snap-align: start;
   }
 
   section {
