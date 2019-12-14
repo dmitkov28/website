@@ -1,13 +1,3 @@
-//vh
-let vh = window.innerHeight * 0.01;
-document.documentElement.style.setProperty('--vh', `${vh}px`);
-// We listen to the resize event
-window.addEventListener('resize', () => {
-    // We execute the same script as before
-    let vh = window.innerHeight * 0.01;
-    document.documentElement.style.setProperty('--vh', `${vh}px`);
-  });
-
 //smooth scroll
 
 var scroll = new SmoothScroll('a[href*="#"]', {
@@ -36,22 +26,5 @@ modalClose.addEventListener('click', ()=>{
 })
 
 
-$(document).ready(function () {
-    'use strict';
-    
-    var orientationChange = function () {
-      var $element = $('section');
-      $element.css('height', '100vh'); // Change this to your own original vh value.
-      $element.css('height', $element.height() + 'px');
-    };
-  
-    var s = screen;
-    var o = s.orientation || s.msOrientation || s.mozOrientation;
-    o.addEventListener('change', function () {
-      setTimeout(function () {
-        orientationChange();
-      }, 250);
-    }, false);
-    orientationChange();
-  });
+
 
