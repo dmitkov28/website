@@ -152,6 +152,10 @@
           margin: 0 auto 1em;
       }
 
+      #section-2  {
+         padding: 3em 0;
+      }
+
       #section-2 .column-right, #section-2 .column-left {
           width: 100%;
           align-items: center;
@@ -184,12 +188,11 @@
     }
     
     #section-2 p {
-        
+        width: 100%;
         margin: 1em auto 0;
-        padding: 0 1em;
     }
 
-    #section-2 p:first-of-type, #section-2 p:last-of-type {
+    #section-2 p:first-of-type {
         display: none;
     }
     
@@ -207,12 +210,12 @@
    }
 
    #section-3 p {
-       width: 80%;
-       margin: 3em auto 1em;
+       width: 100%;
+       margin: 3em auto 2em;
    }
 
    #section-3 p:last-of-type{
-       margin: 0 auto 1em;
+       margin: 0 auto 2em;
    }
 
    .glider-contain {
