@@ -20,7 +20,6 @@
       font-family: Arial, Helvetica, sans-serif;
       text-shadow: 2x 2px 8px rgba(0,0,0,0.7);
       position: relative;
-      border: 2px solid slateblue;
   }
 
   #section-3 {
@@ -120,11 +119,10 @@
       .video {
           position: absolute;
           margin: 2em auto;
-          height: 110%;
-          bottom: -6em;
+          height: 130%;
+          bottom: -7em;
       }
 
-    
       
 
       #section-1 .column-right, #section-1 .column-left {
@@ -143,7 +141,6 @@
           text-align: center;
           width: 80%;
           margin: auto;
-          border: 2px solid green;
       }
 
       #section-1 h1 {
@@ -159,7 +156,6 @@
           width: 100%;
           align-items: center;
           justify-content: center;
-          border: saddlebrown 2px solid;
           display: flex;
       }
       #section-2 .column-right {
@@ -210,7 +206,6 @@
    #section-3 p {
        width: 80%;
        margin: 3em auto 1em;
-       border: 2px solid goldenrod;
    }
 
    #section-3 p:last-of-type{

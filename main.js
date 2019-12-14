@@ -39,3 +39,6 @@ new Glider(document.querySelector('.glider'), {
       next: '.glider-next'
     }
   });
+
+  //animate on scroll
+  AOS.init();
