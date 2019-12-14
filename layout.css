@@ -140,7 +140,7 @@
       #section-1 h1,p {
           text-align: center;
           width: 80%;
-          margin: auto;
+          margin: 1em auto;
       }
 
       #section-1 h1 {
@@ -152,9 +152,6 @@
           margin: 0 auto 1em;
       }
 
-      #section-2  {
-         padding: 4em 0!important;
-      }
 
       #section-2 .column-right, #section-2 .column-left {
           width: 100%;
@@ -164,15 +161,18 @@
       }
       #section-2 .column-right {
           height: 60%;
+          justify-content: flex-start;
+          padding: 2em 1em;
       }
+
       #section-2 .column-left {
           height: 40%;
+          align-items: flex-start;
       }
 
       #section-2 img {
         height: 50%;
         width: auto;
-        margin: -1em auto 1em;
       }
 
 
@@ -192,11 +192,10 @@
         margin: 1em auto 0;
     }
 
-    #section-2 p:first-of-type {
+    #section-2 p:first-of-type, #section-2 p:last-of-type {
         display: none;
     }
-    
-    
+     
     .service-icon {
         width: 40px;
         height: auto;
@@ -204,6 +203,8 @@
 
     #section-3 {
         justify-content: flex-start;
+        border: 2px solid salmon;
+        padding: 0 1em;
     }
    #section-3 h2 {
        margin: 1em auto;
@@ -220,7 +221,7 @@
 
    .glider-contain {
     height: 25%;
-    width: 80%;
+    width: 90%;
     min-width: 80%;
     background: rgb(0, 114, 187,0.3);
     position: relative;
@@ -229,7 +230,9 @@
 
 .glider{
     height: 100%;
+    width: 100%!important;
     display: flex;
+    -moz-hyphens: ;
 }
 
 .dots {
