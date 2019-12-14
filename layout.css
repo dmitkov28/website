@@ -178,13 +178,13 @@
 
 
     #section-2 h2, #section-3 h2 {
-        font-size: 1.3em;
+        font-size: 1em;
     }
 
     #section-2 h2::before, #section-3 h2::before {
         content: '';
         width: 27px;
-        border: 2px solid var(--darkBlue);
+        border: 1.5px solid var(--darkBlue);
         transform: translate(90deg);
     }
     
