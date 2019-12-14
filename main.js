@@ -41,4 +41,6 @@ new Glider(document.querySelector('.glider'), {
   });
 
   //animate on scroll
-  AOS.init();
+  AOS.init({
+    startEvent: 'load',
+  });
