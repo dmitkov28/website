@@ -147,8 +147,4 @@
    
   }
 
-  @-moz-document url-prefix() {
-    section {
-        background: slategray!important;
-    }
-}
+ 
