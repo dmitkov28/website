@@ -38,8 +38,8 @@
 
   @media screen and (max-width:500px){
 
-      body {
-        height: auto;
+      html,body {
+          height: 100%;
       }
 
       section {
