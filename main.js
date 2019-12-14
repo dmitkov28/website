@@ -27,6 +27,7 @@ modalClose.addEventListener('click', ()=>{
 
 
 //slider
+
 new Glider(document.querySelector('.glider'), {
     slidesToShow: 1,
     slidesToScroll: 1,
