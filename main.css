@@ -73,14 +73,3 @@ a:focus, a:active, button:active, button:focus {
 	  font-size: 16px!important;
 	}
 }
-@supports (-moz-appearance:meterbar)  {
-    section {
-      background-color: blue!important;
-    }
-  }
-
-  @-moz-document url-prefix() {
-    section {
-        background: slategray!important;
-    }
-}
