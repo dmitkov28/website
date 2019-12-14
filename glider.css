@@ -1,1 +1,19 @@
+.glider-contain {
+    height: 30%;
+    width: 80%;
+    margin: 2em auto;
+    border: 2px solid cornflowerblue;
+}
+
+.glider{
+    height: 100%;
+}
+.glider div {
+    background: salmon;
+    height: 100%;
+}
+
+.dots {
+    margin: 11em auto;
+}
 
