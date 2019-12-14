@@ -8,7 +8,7 @@
 
 :root {
     --darkBlue: #0F3492;
-    --lightBlue: #0072BB;
+    --lightBlue: rgb(0, 114, 187);
 }
 
 .cta {
@@ -35,7 +35,10 @@
     left: 50%;
     bottom: 10px;
     transform: translate(-50%);
+    animation: scrollDown 1000ms ease-in-out infinite;
 }
+
+
 
 .scroll-button:hover svg {
     opacity: 1!important;
@@ -47,15 +50,12 @@
     width: 20px;
 }
 
-
-
 h1,h2,h3,h4,p {
     color: var(--darkBlue);
 }
 
 p {
     line-height: 1.6;
-    margin: 1em auto;
 }
 
 a:focus, a:active, button:active, button:focus {
