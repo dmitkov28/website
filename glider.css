@@ -11,6 +11,7 @@
 .glider{
     height: 100%;
     display: flex;
+    scrollbar-width: none;
 }
 
 .dots {
