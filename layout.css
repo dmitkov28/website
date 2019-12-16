@@ -453,9 +453,9 @@
     }
   }
 
-@media and (orientation:landscape){
-    p {
-        font-size:0.8em;
+@media screen and (orientation:landscape){
+    section {
+        height: auto;
     }
 
     body {
