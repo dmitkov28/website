@@ -411,7 +411,7 @@
 
   }
 
-  @media screen and (max-width:425px){
+  @media screen and (max-width:425px) and (orientation:landscape){
 
     html, body {
         height: 100%!important;
@@ -453,14 +453,7 @@
     }
   }
 
-@media screen and (orientation:landscape){
-    section {
-        height: auto;
-    }
 
-    body {
-        background: salmon!important;
-    }
-}
+
 
  
