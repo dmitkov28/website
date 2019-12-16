@@ -474,8 +474,8 @@
 
     }
     
-    #section-1 h1,p {
-        margin: 1em auto
+    #section-1 h1,p, .cta:first-of-type {
+        margin: 1em auto 0;
     }
     
     #section-2 .scroll-button {
