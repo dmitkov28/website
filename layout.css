@@ -162,19 +162,20 @@
       #section-2 .column-right {
           height: 60%;
           justify-content: flex-start;
-          padding: 2em 1em;
+          padding: 1em 1em;
+          border: 1px solid red;
       }
 
       #section-2 .column-left {
           height: 40%;
           align-items: flex-start;
+          border: 1px solid blue;
       }
 
       #section-2 img {
         height: 50%;
         width: auto;
       }
-
 
     #section-2 h2, #section-3 h2 {
         font-size: 1em;
@@ -189,7 +190,7 @@
     
     #section-2 p {
         width: 100%;
-        margin: 2em auto!important;
+        margin: 1em auto;
     }
 
     #section-2 p:first-of-type, #section-2 p:last-of-type {
