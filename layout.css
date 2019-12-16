@@ -453,49 +453,14 @@
     }
   }
 
-  @media screen and (max-width:850px) and (orientation:landscape){
-    
-    body, html {
-        height: auto;
-    }
-    
-    section {
-        border: 2px solid green;
-    }
-    
-    #section-1 .column-right {
-        padding: 2em 1em;
-        border: 2px solid orchid;
-        justify-content: space-between!important;
-        align-items: flex-start!important;
+@media and (orientation:landscape){
+    p {
+        font-size:0.8em;
     }
 
-    #section-1 h1 {
-        margin: 3em auto;
+    body {
+        background: salmon;
     }
-    
-    #section-1 .video {
-        width: 80%;
-        height: auto;
-    }
-    
-    #section-1 h1,p, .cta:first-of-type {
-        margin: 1em auto 0;
-    }
-    
-    #section-2 .scroll-button {
-        display: none!important;
-    }
-
-    #section-2 svg {
-        height: 30px;
-        width: 30px;
-    }
-
-    #section-3 p, #section-2 p {
-        font-size: 0.8em!important;
-    }
-
 }
 
  
