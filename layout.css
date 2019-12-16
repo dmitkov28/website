@@ -454,8 +454,9 @@
   }
 
   @media screen and (max-width:850px) and (orientation:landscape){
+    
     body, html {
-        height: auto;
+        height: 100%;
     }
     
     section {
@@ -481,7 +482,7 @@
         display: none!important;
     }
 
-    p{
+    p {
         font-size: 0.8em!important;
     }
 
