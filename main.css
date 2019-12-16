@@ -59,7 +59,7 @@ p {
     line-height: 1.6;
 }
 
-a:focus, a:active, button:active, button:focus {
+a:focus, a:active, button:active {
     outline: 0!important;
     background: rgba(0,0,0,0) !important;
 }
