@@ -140,7 +140,6 @@
 
       .column-left, .column-right {
           width: 100%;
-          border: 2px solid red;
       }
 
       .scroll-button {
@@ -150,14 +149,6 @@
       .scroll-button svg {
           width: 100px!important;
       }
-
-      .cta {
-        width: 180px!important;
-        min-height: 60px!important;
-        background: var(--darkBlue) ;
-        color: white;
-        font-size: 1.3em!important;
-    }
 
       .scroll-button:hover svg {
         transform: scale(1)!important;
@@ -299,7 +290,6 @@
     height: 100%;
     width: 100%!important;
     display: flex;
-
 }
 
 .dots {
@@ -398,15 +388,49 @@
           width: auto;
       }
 
-      .glider-next {
-          right: -15%;
+
+      #section-3 {
+          justify-content: center!important;
       }
 
-      .glider-prev {
-          left: -15%;
+  }
+
+  @media screen and (max-width:425px){
+    
+    p {
+        font-size: 0.9em!important;
+    }
+    
+    blockquote {
+        font-size: 0.8em!important;
+    }
+    
+    #section-1 .column-right {
+          justify-content: center;
       }
 
+      #section-1 h1 {
+          margin-top: 3em;
+      }
+      
+      #section-1 p {
+          margin-bottom: 1em;
+      }
 
+      .cta {
+        width: 170px!important;
+        min-height: 50px!important;
+        background: var(--darkBlue) ;
+        color: white;
+        font-size: 1.3em!important;
+    }
+    .glider-next {
+        right: -15%!important;
+    }
+
+    .glider-prev {
+        left: -15%!important;
+    }
   }
 
  
