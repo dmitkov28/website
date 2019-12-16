@@ -353,6 +353,10 @@
     margin: 1em 0;
     font-size: 0.7em;
 }
+
+.testimonial {
+    justify-content: center;
+}
    
   }
 
@@ -391,7 +395,8 @@
           height: 90px!important;
           width: auto;
       }
-
+      
+      
 
       #section-3 {
           justify-content: center!important;
