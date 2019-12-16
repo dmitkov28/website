@@ -456,7 +456,7 @@
   @media screen and (max-width:850px) and (orientation:landscape){
     
     body, html {
-        height: 100%;
+        height: auto;
     }
     
     section {
@@ -469,9 +469,14 @@
         justify-content: space-between!important;
         align-items: flex-start!important;
     }
+
+    #section-1 h1 {
+        margin: 3em auto;
+    }
     
     #section-1 .video {
-        height: 200px;
+        width: 80%;
+        height: auto;
     }
     
     #section-1 h1,p, .cta:first-of-type {
@@ -482,7 +487,12 @@
         display: none!important;
     }
 
-    #section-3 p {
+    #section-2 svg {
+        height: 30px;
+        width: 30px;
+    }
+
+    #section-3 p, #section-2 p {
         font-size: 0.8em!important;
     }
 
