@@ -396,6 +396,10 @@
   }
 
   @media screen and (max-width:425px){
+
+    html, body {
+        height: 100%!important;
+    }
     
     p {
         font-size: 0.9em!important;
