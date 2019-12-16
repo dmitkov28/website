@@ -12,6 +12,7 @@
     height: 100%;
     display: flex;
     scrollbar-width: none;
+    border: 2px solid seagreen;
 }
 
 .dots {
@@ -49,7 +50,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
- 
+    padding: 1em;
 }
 
 .testimonial img {
