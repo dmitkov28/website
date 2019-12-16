@@ -453,7 +453,7 @@
     }
   }
 
-  @media screen and (max-height:620px){
+  @media screen and (max-width:700px) and (orientation:landscape){
     body, html {
         height: auto;
     }
@@ -471,7 +471,6 @@
     
     #section-1 .video {
         height: 200px;
-
     }
     
     #section-1 h1,p, .cta:first-of-type {
@@ -480,6 +479,10 @@
     
     #section-2 .scroll-button {
         display: none!important;
+    }
+
+    p{
+        font-size: 0.8em;
     }
 }
 
