@@ -497,14 +497,11 @@
     }
 
       #section-1 .video {
-        position: relative;
+        position: static;
         display: block;
         height: 220px;
         margin: 1em auto!important;
-        top: 15%;
-        left: 50%;
-        transform: translate(-50%, 0px);
-        border: 2px solid blue;
+        border: 2px solid red;
       }
 
       #section-1 h1, #section-1 p, #section-1 .cta {
