@@ -501,7 +501,7 @@
         flex-direction: row!important;
         justify-content: center!important;
         align-items: center!important;
-        border: 2px solid hotpink;
+        border: 2px solid indigo;
     }
       #section-1 .video {
         position: static;
