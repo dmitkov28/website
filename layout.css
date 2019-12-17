@@ -146,6 +146,7 @@
 
       html,body {
           height: 100%!important;
+          background: salmon;
       }
 
       section {
