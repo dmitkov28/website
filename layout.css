@@ -496,6 +496,11 @@
         height: 750px!important;
     }
 
+    #section-1 .column-left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
       #section-1 .video {
         position: static;
         display: block;
