@@ -475,6 +475,16 @@
     .glider-prev {
         left: -15%!important;
     }
+
+    .scroll-button {
+        display: flex;
+        bottom: 0em!important;
+        align-items: flex-end;
+    }
+
+    .scroll-button svg {
+        align-self: flex-end;
+    }
   }
 
   @media screen and (max-height:550px){
