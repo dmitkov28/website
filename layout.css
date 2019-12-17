@@ -138,6 +138,10 @@
          flex-direction: column; 
       }
 
+      .column-left {
+          position: relative;
+      }
+
       .column-left, .column-right {
           width: 100%;
       }
@@ -453,7 +457,7 @@
     }
   }
 
-  @media screen and (max-width: 855px) and (orientation: landscape){
+  @media screen and (max-height: 655px) and (orientation: landscape){
       
     body, section{
       height: auto;
