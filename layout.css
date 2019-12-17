@@ -504,7 +504,9 @@
         display: block;
         height: 220px;
         left: 50%;
-        border: 2px solid orangered;
+        top: 15%;
+        transform: translate(-50%, 0px);
+        border: 2px solid mediumaquamarine;
       }
 
       #section-1 h1, #section-1 p, #section-1 .cta {
