@@ -497,7 +497,7 @@
     }
 
       #section-1 .video {
-        position: absolute;
+        position: relative;
         display: block;
         height: 220px;
         top: 15%;
