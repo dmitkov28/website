@@ -498,8 +498,9 @@
 
     #section-1 .column-left {
         display: flex;
-        justify-content: center;
-        align-items: center;
+        flex-direction: row!important;
+        justify-content: center!important;
+        align-items: center!important;
         border: 2px solid hotpink;
     }
       #section-1 .video {
