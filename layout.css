@@ -172,6 +172,10 @@
         transform: scale(1)!important;
       }
 
+      #section-1 .column-left {
+          position: relative;
+      }
+
       #section-2 {
         flex-direction: column-reverse;
       }
@@ -196,6 +200,9 @@
           position: absolute;
           height: 150%;
           bottom: -7em;
+          left: 50%;
+          top: 15%;
+          transform: translate(-50%, 0);
       }
 
     
