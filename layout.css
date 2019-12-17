@@ -497,18 +497,14 @@
     }
 
     #section-1 .column-left {
-        display: flex!important;
-        flex-direction: row!important;
-        justify-content: center!important;
-        align-items: center!important;
-        border: 2px solid peru;
+       position: relative;
     }
       #section-1 .video {
-        position: static;
+        position: absolute;
         display: block;
         height: 220px;
-        margin: 1em auto!important;
-        border: 2px solid red;
+        left: 50%;
+        border: 2px solid blue;
       }
 
       #section-1 h1, #section-1 p, #section-1 .cta {
