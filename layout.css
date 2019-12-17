@@ -146,7 +146,6 @@
 
       html,body {
           height: 100%!important;
-          background: salmon;
       }
 
       section {
@@ -175,6 +174,7 @@
 
       #section-1 .column-left {
           position: relative;
+          border: 2px olive solid;
       }
 
       #section-2 {
@@ -200,10 +200,9 @@
       .video {
           position: absolute;
           height: 150%;
-          bottom: -7em;
           left: 50%;
           top: 15%;
-          transform: translate(-50%, 0);
+          transform: translate(-50%, 0px);
       }
 
     
@@ -498,11 +497,17 @@
         height: 750px!important;
     }
 
-      #section-1 .video {
-        position: static;
-        height: 220px;
-        margin: 2em auto;
-      }
+    #section-1 .column-left {
+        position: relative;
+    }
+    
+    .video {
+        position: absolute;
+        height: 150%;
+        left: 50%;
+        top: 15%;
+        transform: translate(-50%, 0px);
+    }
 
       #section-1 h1, #section-1 p, #section-1 .cta {
           margin: 1em auto 0;
