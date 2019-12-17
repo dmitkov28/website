@@ -497,11 +497,11 @@
     }
 
     #section-1 .column-left {
-        display: flex;
+        display: flex!important;
         flex-direction: row!important;
         justify-content: center!important;
         align-items: center!important;
-        border: 2px solid indigo;
+        border: 2px solid peru;
     }
       #section-1 .video {
         position: static;
