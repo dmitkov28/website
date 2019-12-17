@@ -72,6 +72,11 @@
   
   @media screen and (max-width:1100px){
    
+    body {
+        -webkit-text-size-adjust: 100%;
+		-ms-text-size-adjust: 100%;
+    }
+
     #section-2 {
         flex-direction: column;
         padding: 0;
@@ -456,4 +461,40 @@
     }
   }
 
+  @media screen and (max-height:550px){
+      body{
+          height: auto;
+          overflow-y: scroll;
+      }
+
+      section {
+        height: auto;
+        overflow-y: auto;
+    }
+   
+    .modal {
+        
+        width: 100%;
+    }
+
+    .background-image {
+        height: 750px!important;
+    }
+
+      #section-1 .video {
+        position: static;
+        height: 220px;
+        margin: 2em auto;
+      }
+
+      #section-1 h1, #section-1 p, #section-1 .cta {
+          margin: 1em auto 0;
+      }
+
+      #section-1 .cta {
+          margin-bottom: 5em;
+      }
+
+      
+  }
  
